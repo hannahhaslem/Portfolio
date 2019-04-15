@@ -1,0 +1,534 @@
+        /* CCS RESEST */
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            font-family: "avenir-next", sans-serif;
+            background-color: #ffffff;
+            padding: 0px;
+        }
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#home {
+        max-width: 100%;
+
+}
+
+.bg {
+    background-image: url(img/cityscape.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 499px;
+}
+
+.bg p {display: none;}
+
+
+    /*MONOGRAM*/
+        .logo {
+            max-width: 9%;
+            max-height: 18%;
+            float: left;
+            margin-left: 8em;
+            margin-top: -0.5em;
+        }
+       
+    /*NAVIGATION*/    
+
+        ul {
+            font-size: 20px;
+        }
+        
+        ul li {
+            display: inline-block;
+            margin-left: 15px;
+            text-align: right;
+        }
+
+        li a {
+            color: #006064;
+            text-decoration: none;
+        }
+
+        nav {
+            top: 0;
+            left: 0;
+            margin-top: 1.2em;
+            margin-left: -8em;
+            width: 100%;
+            padding: 0.01em;
+            font-family: 'avenir-next', sans-serif;
+            font-weight: 900;
+        }
+
+        nav ul {
+            letter-spacing: 2px;
+            text-align: right;
+            margin-top: 2em;
+        }
+
+        nav ul li {
+            display:inline;
+            padding: 0.10em;
+            margin: 15px;
+        }
+
+
+        nav a:hover { 
+            color: #0097A7;
+            transition: all 0.7s ease-in;
+        }
+
+    /*INTRO*/
+
+        .intro1 {
+            font-family: 'avenir-next', sans-serif;
+            font-size: 2em;
+            text-align: center;
+            color: #006064;
+            padding-top: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        .intro2 {
+            font-family: 'avenir-next', sans-serif;
+            font-size: 2.2em;
+            font-weight: 500;
+            text-align: center;
+            color: #00838F;
+            padding-top: 0em;
+            margin-bottom: 0.1em;
+            letter-spacing: 0.1em;
+        }
+
+        .intro3 {
+            font-family: 'avenir-next', sans-serif;
+            font-size: 2em;
+            margin-top: -0.5em;
+            text-align: center;
+            color: #0097A7;
+            padding-bottom: -0.2em;
+        }
+
+/* PORTFOLIO */
+
+        #Portfolio h3 {
+            text-align: center;
+            font-size: 20px;
+            color: #006064;
+            font-family: 'avenir-next', sans-serif;
+            margin-top: 0.5em;
+        }
+
+/* CSS GRID PORTFOLIO */
+
+        #portfoliowork {
+               display: grid;
+               grid-template-columns: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%;
+               margin-top: 1em;
+               margin-left: 13em;
+        }
+
+        #portfoliowork img {
+            max-width: 200%;
+            padding: 0em 0em 0em 0em;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #portfoliowork h3 {
+            text-align: center;
+            font-size: 25px;
+            color: #0097A7;
+            font-family: 'avenir-next', sans-serif;
+            font-weight: 500;
+            margin-bottom: 2em;
+        }
+
+        .work1 {
+            grid-column: 1/9;
+            text-align: center; 
+        }
+
+        .work2 {
+            grid-column: 1/3;
+            text-align: center; 
+            margin-left: -5em;
+        }
+
+        .work3 {
+            grid-column: 3/6;
+            text-align: center; 
+            margin-left: -5em;
+        }
+
+        .work4 {
+            grid-column: 6/9;
+            text-align: center; 
+        }
+
+
+/* DESIGNER ESSAY */
+
+        .image1 {
+            padding-top: 3em;
+            opacity: 1;
+            align-content: center;
+            max-width: 45%;
+            margin-left: 2.3em;
+        }
+
+        .text {
+            color: #0097A7;
+            font-size: 50px;
+            font-weight: 900;
+            position: absolute;
+            text-align: center;
+            opacity: 1;
+            top: 160%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-family: 'avenir-next', sans-serif;
+            background-color: #ffffff;
+            padding: 7px 7px 7px 7px;
+        }
+
+        .subtext{
+            color: #0097a7;
+            font-size: 25px;
+            font-weight: 400;
+            position: absolute;
+            text-align: center;
+            opacity: 1;
+            top: 168%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-family: 'avenir-next', sans-serif;
+            background-color: #FFFFFF;
+            padding: 7px 7px 7px 7px;
+        } 
+
+        .subtext:hover {
+            padding: 7px 7px 7px 7px;
+            background-color: #E0F7FA;
+            color: #0097A7;
+            transition: all 0.5s ease-in-out;
+        }
+
+
+        .text:hover {
+            padding: 7px 7px 7px 7px;
+            background-color:  #E0F7FA;
+            color: #0097A7;
+            transition: all 0.5s ease-in-out;
+        }
+
+/* TRAVEL APP */
+
+        .image2 {
+            padding-top: 2em;
+            opacity: 1;
+            align-content: center;
+            width: 85%; 36.6
+            margin-left: 2.3em;
+            padding-left:29em;
+        }
+
+        .text2 {
+            grid: 1/3;
+            color: #0097A7;
+            font-size: 25px;
+            font-weight: 400;
+            position: absolute;
+            text-align: center;
+            opacity: 1;
+            top: 244.8%;
+            left: 62.5%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-family: 'avenir-next', sans-serif;
+            background-color: #FFFFFF;
+            padding: 7px 7px 7px 7px;
+        }
+
+        .text2:hover {
+            padding: 7px 7px 7px 7px;
+            background-color:  #E0F7FA;
+            color: #0097A7;
+            transition: all 0.5s ease-in-out;
+        }
+
+/* PERSONAL BRANDING */
+
+        .image3 {
+            padding-top: 2em;
+            opacity: 1;
+            align-content: center;
+            max-width: 36.6%;
+            margin-left: 2.3em;
+            padding-left: 10em;
+            margin-top: -22em;
+        }
+
+        .text3 {
+            grid: 1/3;
+            color: #0097A7;
+            font-size: 25px;
+            font-weight: 400;
+            position: absolute;
+            text-align: center;
+            opacity: 1;
+            top: 244.8%;
+            left: 27.5%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-family: 'avenir-next', sans-serif;
+            background-color: #FFFFFF;
+            padding: 7px 7px 7px 7px;
+        }
+
+        .text3:hover {
+            padding: 7px 7px 7px 7px;
+            background-color:  #E0F7FA;
+            color: #0097A7;
+            transition: all 0.5s ease-in-out;
+        }
+
+/* POPULATION INFOGRAPHIC*/
+
+        .image4 {
+            padding-top: 4em;
+            opacity: 1;
+            align-content: center;
+            max-width: 50%;
+            padding-left: 11em;
+            margin-top: 0em;
+        }
+
+        .text4 {
+            grid: 1/3;
+            color: #0097A7;
+            font-size: 25px;
+            font-weight: 400;
+            position: absolute;
+            text-align: center;
+            opacity: 1;
+            top: 295.2%;
+            left: 33%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-family: 'avenir-next', sans-serif;
+            background-color: #FFFFFF;
+            padding: 7px 7px 7px 7px;
+        }
+
+        .text4:hover {
+            padding: 7px 7px 7px 7px;
+            background-color:  #E0F7FA;
+            color: #0097A7;
+            transition: all 0.5s ease-in-out;
+        }
+
+/* TYPE SPECIMEN POSTER */
+
+        .image5 {
+            padding-top: 3em;
+            opacity: 1;
+            align-content: center;
+            max-width: 50%;
+            padding-left: 42em;
+            margin-top: -25.1em;
+        }
+
+        .text5 {
+            grid: 1/3;
+            color: #0097A7;
+            font-size: 25px;
+            font-weight: 400;
+            position: absolute;
+            text-align: center;
+            opacity: 1;
+            top: 295.2%;
+            left: 67.7%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-family: 'avenir-next', sans-serif;
+            background-color: #FFFFFF;
+            padding: 7px 7px 7px 7px;
+        }
+
+        .text5:hover {
+            padding: 7px 7px 7px 7px;
+            background-color:  #E0F7FA;
+            color: #0097A7;
+            transition: all 0.5s ease-in-out;
+        }
+
+/* ABOUT */
+
+        #About h2 {
+            text-align: center;
+            font-size: 50px;
+            color: #0097A7;
+            font-family: 'avenir-next', sans-serif;
+            margin-top: 3em;
+        }
+
+        .aboutme p{
+            font-family: 'avenir-next', sans-serif;
+            font-size: 1.35em;
+            margin-left: 16em;
+            margin-right: 16em;
+            margin-top: 1.5em;
+            line-height: 1.3em;
+            margin-bottom: 1em;
+            text-align: justify;
+        }
+
+
+/* CCS GRID VALUES */
+
+        #values {
+            display: grid;
+            grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+            padding-top: 5em;
+            margin-top: 3em;
+        }
+
+        #values, h3{
+            grid-column: 2/4;
+            text-align: center;
+            font-size: 40px;
+            color: #0097A7;
+            font-family: 'avenir-next', sans-serif;
+            margin-top: 0em;
+        }
+
+        #values, img { 
+            max-width: 55%;
+            padding-bottom: 1em;
+            padding-top: 1em;
+            padding-left: 1.5em;
+            padding-right: 1.5em;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #values, p {
+            font-size: 1.05em;
+            text-align: justify;
+            color: #000;
+            margin-top: 0.5em;
+            font-family: 'avenir-next', sans-serif;
+        }
+
+        .project {
+            grid-column: 1/5;
+            margin-left: 3em;
+            text-align: center;
+        }
+
+        .item1 {
+            grid-column: 6/10;
+            text-align: center;
+        }
+
+        .item2 {
+            grid-column: 1/5;
+            text-align: center;
+        }
+
+        .item3 {
+            grid-column: 6/10;
+            text-align: center;
+        }
+
+        .title3 {
+            margin-bottom: 0em;
+        }
+
+/* CONTACT */
+
+        #Contact, h2 {
+            text-align: center;
+            font-size: 50px;
+            color: #0097A7;
+            font-family: 'avenir-next', sans-serif;
+            margin-top: 0.5em;
+        }
+
+        .contact {
+            padding-top: 0.1em;
+            background-color: #E0F7FA;
+        }
+
+        .email { 
+            font-size: 0.5em;
+            color: #000000;
+            padding-top: 1.5em;
+            text-align: center;
+            font-family: 'avenir-next', sans-serif;
+            padding-bottom: 1em;
+            margin-left: 20em;
+            margin-right: 20em;
+            line-height: 1.35em;
+        }
+
+        .email a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .email a:hover {
+            padding: 3px 3px 3px 3px;
+            background-color: #00ACC1;
+            color: #ffffff;
+            }
+
+/* ICONS */
+
+        .connections {
+            position: relative;
+            margin: 0 auto;
+            margin: 10px, 0;
+            margin-bottom: 0em;
+        }
+
+        .connections ul {
+            margin: 0;
+            padding 0;
+        }
+
+        .connections li {
+            margin: 0 1px;
+            padding: 0;
+            padding-top:0em; 
+            list-style: none;
+            display: inline-block
+        }
+
+        .connection a:link {
+            border-bottom: none;
+        }
+
+        .connections img {
+            opacity: 0.9;
+            border: none;
+            height: 2.1em;
+        }
+
+        .connections a:hover img {
+            opacity: 6.0;
+            border-bottom: none;
+            transition: all 0.4s ease-in-out;
+            transform: scale(1.4);
+        }

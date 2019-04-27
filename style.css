@@ -1,4 +1,4 @@
-        /* CCS RESEST */
+ /* CCS RESEST */
         
         *{
             margin: 0;
@@ -64,7 +64,6 @@ html {
             margin-left: -8em;
             width: 100%;
             padding: 0.01em;
-            font-family: 'avenir-next', sans-serif;
             font-weight: 900;
         }
 
@@ -82,23 +81,21 @@ html {
 
 
         nav a:hover { 
-            color: #0097A7;
-            transition: all 0.7s ease-in;
+            color: #4DD0E1;
+            transition: all 0.3s ease-in;
         }
 
     /*INTRO*/
 
         .intro1 {
-            font-family: 'avenir-next', sans-serif;
             font-size: 2em;
             text-align: center;
             color: #006064;
             padding-top: 3em;
-            margin-bottom: 0.5em;
+            margin-bottom: 0.2em;
         }
 
         .intro2 {
-            font-family: 'avenir-next', sans-serif;
             font-size: 2.2em;
             font-weight: 500;
             text-align: center;
@@ -109,7 +106,6 @@ html {
         }
 
         .intro3 {
-            font-family: 'avenir-next', sans-serif;
             font-size: 2em;
             margin-top: -0.5em;
             text-align: center;
@@ -123,255 +119,172 @@ html {
             text-align: center;
             font-size: 20px;
             color: #006064;
-            font-family: 'avenir-next', sans-serif;
             margin-top: 0.5em;
         }
 
-/* CSS GRID PORTFOLIO */
-
         #portfoliowork {
-               display: grid;
-               grid-template-columns: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%;
-               margin-top: 1em;
-               margin-left: 13em;
+               margin-left: 5.5em;
+        
         }
 
-        #portfoliowork img {
-            max-width: 200%;
-            padding: 0em 0em 0em 0em;
-            margin-left: auto;
-            margin-right: auto;
-        }
+/* PORTFOLIO DESIGNER WEBSITE*/
 
-        #portfoliowork h3 {
-            text-align: center;
-            font-size: 25px;
-            color: #0097A7;
-            font-family: 'avenir-next', sans-serif;
-            font-weight: 500;
-            margin-bottom: 2em;
-        }
+.paulascher {
+  max-width: 63.8%;
+    height: auto;
+    opacity: 4;  
+    margin-left: 13.05em;
+    margin-right: auto;
+    padding: 1em 0em 0em 0em;
+}
 
-        .work1 {
-            grid-column: 1/9;
-            text-align: center; 
-        }
+.overlay1 {
+    position: absolute;
+    background-color: #B2EBF2;
+    top: 60.25em; 
+    left: 18.55em;
+   right: 16em; 
+    bottom: 0;
+    height: 59.3%;
+    width: 58.9%;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
 
-        .work2 {
-            grid-column: 1/3;
-            text-align: center; 
-            margin-left: -5em;
-        }
+.designerwebsite {
+    font-size: 3.9em;
+    font-weight: 550;
+    margin-top: 0em;
+    line-height: 1.05em;
+    text-transform;
+    color:  #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
-        .work3 {
-            grid-column: 3/6;
-            text-align: center; 
-            margin-left: -5em;
-        }
+.overlay1:hover .designerwebsite { 
+    color:  transparent;
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;}
 
-        .work4 {
-            grid-column: 6/9;
-            text-align: center; 
-        }
+.overlay1:hover {background: rgba(224,247,250,.1);
+    border-bottom: none;}
 
+/* CSS GRID1 PORTFOLIO */
 
-/* DESIGNER ESSAY */
+.grid1 ul {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-gap: 12.05em;
+  list-style-type: none;
+    margin-left: 14.05em;
+    padding-top: 1em;
+}
 
-        .image1 {
-            padding-top: 3em;
-            opacity: 1;
-            align-content: center;
-            max-width: 45%;
-            margin-left: 2.3em;
-        }
+.grid1 li {
+    position: relative;
+    width: 170%;
+    }
 
-        .text {
-            color: #0097A7;
-            font-size: 50px;
-            font-weight: 900;
-            position: absolute;
-            text-align: center;
-            opacity: 1;
-            top: 160%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            font-family: 'avenir-next', sans-serif;
-            background-color: #ffffff;
-            padding: 7px 7px 7px 7px;
-        }
+.image2 {
+    max-width: 120%;
+    align-content: center;
+    padding: 0em 0em 0em 0em;
+}
 
-        .subtext{
-            color: #0097a7;
-            font-size: 25px;
-            font-weight: 400;
-            position: absolute;
-            text-align: center;
-            opacity: 1;
-            top: 168%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            font-family: 'avenir-next', sans-serif;
-            background-color: #FFFFFF;
-            padding: 7px 7px 7px 7px;
-        } 
+.overlay2 {
+    position: absolute;
+    background-color: #B2EBF2;
+    top: 0; 
+    bottom: 0;
+    height: 99%;
+    width: 120%;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
 
-        .subtext:hover {
-            padding: 7px 7px 7px 7px;
-            background-color: #E0F7FA;
-            color: #0097A7;
-            transition: all 0.5s ease-in-out;
-        }
+    .text2 {
+    font-size: 1.8em;
+    font-weight: 550;
+    margin-top: 0em;
+    line-height: 1.05em;
+    text-transform;
+    color:  #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
+.overlay2:hover .text2 { 
+    color:  transparent;
+    padding: 6px 6px 6px 6px;
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;}
 
-        .text:hover {
-            padding: 7px 7px 7px 7px;
-            background-color:  #E0F7FA;
-            color: #0097A7;
-            transition: all 0.5s ease-in-out;
-        }
+.overlay2:hover {background: rgba(224,247,250,.1);
+    border-bottom: none;}
 
-/* TRAVEL APP */
+/* CSS GRID2 PORTFOLIO */
 
-        .image2 {
-            padding-top: 2em;
-            opacity: 1;
-            align-content: center;
-            width: 85%; 36.6
-            margin-left: 2.3em;
-            padding-left:29em;
-        }
+.grid2 ul {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-gap: 12.05em;
+  list-style-type: none;
+    margin-left: 14.05em;
+    padding-top: 1em;
+}
 
-        .text2 {
-            grid: 1/3;
-            color: #0097A7;
-            font-size: 25px;
-            font-weight: 400;
-            position: absolute;
-            text-align: center;
-            opacity: 1;
-            top: 244.8%;
-            left: 62.5%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            font-family: 'avenir-next', sans-serif;
-            background-color: #FFFFFF;
-            padding: 7px 7px 7px 7px;
-        }
+.grid2 li {
+    position: relative;
+    width: 170%;
+    }
 
-        .text2:hover {
-            padding: 7px 7px 7px 7px;
-            background-color:  #E0F7FA;
-            color: #0097A7;
-            transition: all 0.5s ease-in-out;
-        }
+.image3 {
+    max-width: 120%;
+    align-content: center;
+    padding: 0em 0em 0em 0em;
+}
 
-/* PERSONAL BRANDING */
+.overlay3 {
+    position: absolute;
+    background-color: #B2EBF2;
+    top: 0; 
+    bottom: 0;
+    height: 99%;
+    width: 120%;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
 
-        .image3 {
-            padding-top: 2em;
-            opacity: 1;
-            align-content: center;
-            max-width: 36.6%;
-            margin-left: 2.3em;
-            padding-left: 10em;
-            margin-top: -22em;
-        }
+    .text3 {
+    font-size: 1.8em;
+    font-weight: 550;
+    margin-top: 0em;
+    line-height: 1.05em;
+    text-transform;
+    color:  #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
-        .text3 {
-            grid: 1/3;
-            color: #0097A7;
-            font-size: 25px;
-            font-weight: 400;
-            position: absolute;
-            text-align: center;
-            opacity: 1;
-            top: 244.8%;
-            left: 27.5%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            font-family: 'avenir-next', sans-serif;
-            background-color: #FFFFFF;
-            padding: 7px 7px 7px 7px;
-        }
+.overlay3:hover .text3 { 
+    color:  transparent;
+    padding: 6px 6px 6px 6px;
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;}
 
-        .text3:hover {
-            padding: 7px 7px 7px 7px;
-            background-color:  #E0F7FA;
-            color: #0097A7;
-            transition: all 0.5s ease-in-out;
-        }
+.overlay3:hover {background: rgba(224,247,250,.1);
+    border-bottom: none;}
 
-/* POPULATION INFOGRAPHIC*/
-
-        .image4 {
-            padding-top: 4em;
-            opacity: 1;
-            align-content: center;
-            max-width: 50%;
-            padding-left: 11em;
-            margin-top: 0em;
-        }
-
-        .text4 {
-            grid: 1/3;
-            color: #0097A7;
-            font-size: 25px;
-            font-weight: 400;
-            position: absolute;
-            text-align: center;
-            opacity: 1;
-            top: 295.2%;
-            left: 33%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            font-family: 'avenir-next', sans-serif;
-            background-color: #FFFFFF;
-            padding: 7px 7px 7px 7px;
-        }
-
-        .text4:hover {
-            padding: 7px 7px 7px 7px;
-            background-color:  #E0F7FA;
-            color: #0097A7;
-            transition: all 0.5s ease-in-out;
-        }
-
-/* TYPE SPECIMEN POSTER */
-
-        .image5 {
-            padding-top: 3em;
-            opacity: 1;
-            align-content: center;
-            max-width: 50%;
-            padding-left: 42em;
-            margin-top: -25.1em;
-        }
-
-        .text5 {
-            grid: 1/3;
-            color: #0097A7;
-            font-size: 25px;
-            font-weight: 400;
-            position: absolute;
-            text-align: center;
-            opacity: 1;
-            top: 295.2%;
-            left: 67.7%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            font-family: 'avenir-next', sans-serif;
-            background-color: #FFFFFF;
-            padding: 7px 7px 7px 7px;
-        }
-
-        .text5:hover {
-            padding: 7px 7px 7px 7px;
-            background-color:  #E0F7FA;
-            color: #0097A7;
-            transition: all 0.5s ease-in-out;
-        }
 
 /* ABOUT */
 
@@ -379,12 +292,10 @@ html {
             text-align: center;
             font-size: 50px;
             color: #0097A7;
-            font-family: 'avenir-next', sans-serif;
             margin-top: 3em;
         }
 
         .aboutme p{
-            font-family: 'avenir-next', sans-serif;
             font-size: 1.35em;
             margin-left: 16em;
             margin-right: 16em;
@@ -407,9 +318,8 @@ html {
         #values, h3{
             grid-column: 2/4;
             text-align: center;
-            font-size: 40px;
+            font-size: 1.2em;
             color: #0097A7;
-            font-family: 'avenir-next', sans-serif;
             margin-top: 0em;
         }
 
@@ -424,11 +334,10 @@ html {
         }
 
         #values, p {
-            font-size: 1.05em;
+            font-size: 1em;
             text-align: justify;
             color: #000;
             margin-top: 0.5em;
-            font-family: 'avenir-next', sans-serif;
         }
 
         .project {
@@ -462,7 +371,6 @@ html {
             text-align: center;
             font-size: 50px;
             color: #0097A7;
-            font-family: 'avenir-next', sans-serif;
             margin-top: 0.5em;
         }
 
@@ -476,7 +384,6 @@ html {
             color: #000000;
             padding-top: 1.5em;
             text-align: center;
-            font-family: 'avenir-next', sans-serif;
             padding-bottom: 1em;
             margin-left: 20em;
             margin-right: 20em;
